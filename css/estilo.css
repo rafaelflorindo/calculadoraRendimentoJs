@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;/*centraliza o conteúdo mediante
+    tamanho da tela*/
+}
+#container{
+    width: 30%;
+    max-width: 800px;
+    height: auto;
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 17px 17px 17px;
+    text-align: center;
+}
+
+#container h1{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#container form{
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+#container form label{
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    margin-top: 10px;
+}
+#container form input{
+    height: 40px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container form button{
+    height: 50px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #999;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+#resultadoFinanceiro{
+    margin-top: 20px;
+    border: 1px solid sienna;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 7px;
+}
+#resultadoFinanceiro h2{ font-size: 1em; color: #000}
+#resultadoFinanceiro h3{ font-size: 0.8em; color: #000}
+
+#resultadoFinanceiro .containerDespesas{ 
+    display: flex; gap: 10px;
+}
+
+.box{ 
+    margin-top: 10px; 
+    padding: 10px;
+    border: 1px solid royalblue; border-radius: 7px; 
+}    
+.box_despesasFixa{ background-color: aquamarine;}    
+.box_despesasVariaveis{ background-color: rgba(196, 39, 39, 0.648);}    
+.box_investimento{ background-color: rgb(126, 126, 13);}    
